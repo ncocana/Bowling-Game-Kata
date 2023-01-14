@@ -1,7 +1,7 @@
 class ScoreCard:
 
     def __init__(self, card):
-        self.card = list(card)
+        self.card = card
         self.lastThrow = 0
 
     def calcScoreBonus(self, throws):
